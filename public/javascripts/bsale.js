@@ -1,6 +1,6 @@
 (async function(){
     const pelement = document.getElementById('productos')
-    const req = await fetch('http://bsaleapiv5.herokuapp.com/productos/productos/')
+    const req = await fetch('https://bsaleapiv5.herokuapp.com/productos/productos/')
     const productos = await req.json() 
     productos.productos.forEach(producto => {
         let template = 
