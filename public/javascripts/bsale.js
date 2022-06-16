@@ -2,7 +2,6 @@
     const pelement = document.getElementById('productos')
     const req = await fetch('http://bsaleapiv5.herokuapp.com/productos/productos/')
     const productos = await req.json() 
-    const search = await req.json()
     productos.productos.forEach(producto => {
         let template = 
         `<img class="card-img-top img-thumbnail"  src="${producto.url_image}" alt="Card image cap">
