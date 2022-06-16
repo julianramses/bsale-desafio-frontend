@@ -17,7 +17,6 @@ block content
     div.container
       a.navbar-brand(href="#") Bsale Front-End Test 
       form.form-inline.my-2.my-lg-0
-      button(type="submit").btn.btn-outline-success.my-2.my-sm-0 Buscar
   div.container
     div#productos.row
 ```
